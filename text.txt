@@ -1,4 +1,4 @@
-/site-amor
+/for you my love
  ├── index.html
  ├── style.css
  ├── script.js
