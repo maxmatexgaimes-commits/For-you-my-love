@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Você 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="efeitos"></div>
+
+<!-- CARTINHA -->
+<div id="cartinha">
+  <div class="envelope">
+    <h1>💌 Cartinha Especial</h1>
+    <p>
+      Aqui dentro tem amor, carinho  
+      e tudo que sinto por você 💕
+    </p>
+    <button onclick="abrirSite()">Abrir 💖</button>
+  </div>
+</div>
+
+<!-- SITE -->
+<div id="site">
+  <audio id="musica" src="musica.mp3" loop></audio>
+
+  <header>
+    <h1>💗 Eu & Você 💗</h1>
+    <p>Uma história escrita com amor</p>
+  </header>
+
+  <section class="texto">
+    <h2>🌷 Para Você</h2>
+    <p>
+      Desde que você entrou na minha vida,
+      tudo ficou mais bonito.  
+      Esse site é só um pedacinho do amor
+      enorme que eu sinto por você.
+    </p>
+  </section>
+
+  <section class="datas">
+    <h2>📅 Datas Importantes</h2>
+    <ul>
+      <li>💞 Quando nos conhecemos: 20/11</li>
+      <li>✨ Nosso começo: (coloque aqui)</li>
+      <li>🎂 Seu aniversário: (coloque aqui)</li>
+    </ul>
+  </section>
+
+  <section class="contador">
+    <h2>⏳ Nosso Tempo Juntos</h2>
+    <p>Desde o dia que tudo começou 💕</p>
+
+    <div class="tempo">
+      <div><span id="dias">0</span><small>Dias</small></div>
+      <div><span id="horas">0</span><small>Horas</small></div>
+      <div><span id="minutos">0</span><small>Minutos</small></div>
+      <div><span id="segundos">0</span><small>Segundos</small></div>
+    </div>
+  </section>
+
+  <section class="galeria">
+    <h2>📸 Nossas Memórias</h2>
+    <p>Clique nas fotos 💕</p>
+    <div class="fotos">
+      <img src="fotos/foto1.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto2.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto3.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto4.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto5.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto6.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto7.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto8.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto9.jpg" onclick="clicarFoto(this)">
+      <img src="fotos/foto10.jpg" onclick="clicarFoto(this)">
+    </div>
+  </section>
+
+  <section class="final">
+    <h2>💖 Eu Te Amo</h2>
+    <p>
+      Obrigado por ser você.  
+      Obrigado por existir.  
+      Obrigado por estar comigo.
+    </p>
+  </section>
+
+  <footer>
+    <p>Feito com todo amor do mundo 💗</p>
+  </footer>
+</div>
+
+<!-- TELA FINAL SURPRESA -->
+<div id="surpresa">
+  <div class="caixa-surpresa">
+    <h1>💖 Surpresa 💖</h1>
+    <p>
+      Se você chegou até aqui…  
+      é porque tudo isso é real.  
+      Eu te amo mais do que palavras conseguem dizer.
+    </p>
+    <button onclick="fecharSurpresa()">💌 Eu também te amo</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
